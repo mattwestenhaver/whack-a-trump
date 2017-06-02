@@ -1,0 +1,72 @@
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+  text-align: center;
+  color: #125688;
+  margin: 10px auto 0 auto;
+  font-size: 38px;
+}
+
+#board {
+  width: 381px;
+  height: 381px;
+  border: 2px solid green;
+  background: green;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+#board div {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 125px;
+  margin: 12.25px;
+  background: #8B4513;
+  border-radius: 90px;
+}
+
+img {
+  max-width: 75px;
+  margin-top: 5px;
+}
+
+.button_div {
+  width: 381px;
+  height: 30px;
+  margin: 2px auto 25px auto;
+  text-align: center;
+}
+
+.start {
+  float: left;
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  color: maroon;
+  background: lightblue;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 16px;
+}
+
+time {
+  width: 30px;
+  text-align: center;
+}
+
+.score {
+  float: right;
+  height: 25px;
+  width: 100px;
+  font-size: 20px;
+}
+
+.copyright {
+  width: 381px;
+  margin: 5px auto;
+  text-align: right;
+}
